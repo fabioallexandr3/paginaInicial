@@ -1,0 +1,230 @@
+* {
+
+    padding: 0px;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+nav {
+
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: rgb(223, 223, 223);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+
+    height: 60px;
+
+}
+
+.logo {
+    display: flex;
+}
+
+#circle {
+    height: 15px;
+    width: 15px;
+    background: #ff0000;
+    border-radius: 100px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+li {
+    padding: 10px;
+}
+
+a {
+    display: flex;
+    color: #333;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+#navegacao a li:hover {
+    display: flex;
+    color: #333;
+    border-bottom: #f00;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+
+}
+
+#buscar {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+}
+
+i {
+    display: flex;
+    padding: 10px;
+    width: 25px;
+    height: 25px;
+    font-size: 30px;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#secao1 {
+    display: flex;
+    margin: 20px 20px 50px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#secao1_card1 {
+    display: flex;
+    max-width: 850px;
+    min-width: 300px;
+    flex-direction: column;
+    align-content: center;
+    gap: 20px;
+
+
+
+}
+
+#secao1_card1 h1 {
+    font-size: 60px;
+
+}
+
+
+
+button {
+    padding: 8px;
+    font-size: 18px;
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    min-width: 164px;
+    font-weight: 900;
+    border-style: none;
+    height: 42px;
+}
+
+button:hover {
+
+    background-color: rgb(221, 0, 0);
+}
+
+#imagem {
+
+    min-width: 300px;
+    height: 500px;
+}
+
+#secao2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 20px 20px 50px;
+    gap: 10px;
+    max-width: 1200px;
+}
+
+/*Cards com info do produto*/
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 350px;
+    min-width: 180px;
+    border-radius: 20px;
+    border-color: rgb(209, 209, 209);
+    border-style: solid;
+    border-width: 1px;
+    padding: 15px;
+    gap: 10px;
+
+}
+
+.card:hover {
+    background-color: rgba(238, 238, 238, 0.438);
+
+}
+
+.card:hover i {
+    color: #f00;
+
+}
+
+.card p {
+    font-weight: 500;
+}
+
+.nav-itens{
+    display: flex;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+    min-width: 1140px;
+
+}
+
+.nav-itens ul #a1{
+    display: flex;
+    color: #333;
+    border-bottom: #f00;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+
+
+}
+
+#secao3 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    gap: 15px;
+    max-width: 1200px;
+}
+
+#secao3heaedin h1 {
+    font-size: 45px;
+    max-width: 960px;
+}
+
+.secao3-cards {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+
+.cards-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    border: 1px #dbdbdb solid;
+    border-radius: 20px;
+    padding: 15px;
+    max-width: 350px;
+    min-width: 100px;
+    height: 200px;
+}
